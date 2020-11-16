@@ -1,0 +1,13 @@
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = crlf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+[*.cs]
+
+# CS1587: XML comment is not placed on a valid language element
+dotnet_diagnostic.CS1587.severity = none
